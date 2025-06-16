@@ -1,0 +1,51 @@
+{
+
+    "string" : {
+        "widget" : "ctk.CTkEntry",
+        "sql_dtype": ["CHAR", "VARCHAR", "TINYTEXT", "YEAR"],
+        "dtype": "str",
+        "sql_placeholder": "%s",
+        "widget_state": "normal"
+    },
+
+    "text" : {
+        "widget" : "ctk.CTkTextbox",
+        "sql_dtype": ["TEXT", "MEDIUMTEXT", "LONGTEXT"],
+        "dtype": "str",
+        "sql_placeholder": "%s",
+        "widget_state": "normal"
+    },
+
+    "integer" : {
+        "widget" : "ctk.CTkEntry",
+        "sql_dtype": ["INT", "TINYINT", "MEDIUMINT", "BIGINT"],
+        "dtype": "int",
+        "sql_placeholder": "%s",
+        "widget_state": "normal"
+    },
+
+    "float" : {
+        "widget" : "ctk.CTkEntry",
+        "sql_dtype": ["DECIMAL", "NUMERIC", "FLOAT", "DOUBLE"],
+        "dtype": "float",
+        "sql_placeholder": "%s",
+        "widget_state": "normal"
+    },
+
+    "date" : {
+        "widget" : "DateEntry",
+        "sql_dtype": ["DATE"],
+        "dtype": "date",
+        "sql_placeholder": "STR_TO_DATE(%s, '%d,%m,%Y')",
+        "widget_state": "readonly"
+    },
+
+    "category" : {
+        "widget" : "ctk.CTkComboBox",
+        "sql_dtype": ["ENUM"],
+        "dtype": "str",
+        "sql_placeholder": "%s",
+        "widget_state": "readonly"
+    }
+
+}
