@@ -1,4 +1,4 @@
-# View the SQL_DynamicApp.py file to get the main code for the project.
+# View the `SQL_DynamicApp.py` file to get the main code for the project.
 ## The main idea of the project is this (step by step):
 - A database connection form opens which connects to any mysql database and the table too.
 - After the connection is made the app goes through the metadata of the columns in the table
